@@ -7,7 +7,7 @@ export default function ProductLayout({
     <div>
       {children}
       <div>
-        <h2>Featured products section</h2>
+        <h2>Featured products section additions</h2>
       </div>
     </div>
   );
