@@ -13,14 +13,14 @@ export default async function Users() {
   console.log({ authObj });
   console.log({ userObj });
 
-  const res = await fetch("https://66974b0d02f3150fb66d25c5.mockapi.io/users");
+  const res = await fetch("https://67e5ae3118194932a586ee25.mockapi.io/users");
   const users = await res.json();
 
   async function addUser(formData: FormData) {
     "use server";
     const name = formData.get("name");
     const res = await fetch(
-      "https://66974b0d02f3150fb66d25c5.mockapi.io/users",
+      "https://67e5ae3118194932a586ee25.mockapi.io/users",
       {
         method: "POST",
         headers: {
